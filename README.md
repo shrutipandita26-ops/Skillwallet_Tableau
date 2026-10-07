@@ -336,10 +336,6 @@ A final demonstration should show:
 
 ---
 
-**Documentation:** 
-
----
-
 ## Tools & Technologies
 
 - **Tableau Desktop** – Data analysis and visualization
@@ -372,7 +368,6 @@ The results should be interpreted as patterns within the supplied dataset and no
 
 **Tableau Public:** 
 - Dashboard: https://public.tableau.com/views/Book1_Shruti_Agricultural_Dashboard/IndiaAgriculturalCropAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link
-- Story:
--  
 
-**Demo:** 
+- Story: https://public.tableau.com/views/Shruti_Agricultural_story/AgriculturalOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+ 
