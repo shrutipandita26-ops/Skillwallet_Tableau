@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}India Agricultural Crop Analysis{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="{{ url_for('home') }}">Crop Atlas India</a>
+    <nav>
+      <a href="{{ url_for('home') }}" {% if page == 'home' %}aria-current="page"{% endif %}>Home</a>
+      <a href="{{ url_for('dashboard') }}" {% if page == 'dashboard' %}aria-current="page"{% endif %}>Dashboard</a>
+      <a href="{{ url_for('story') }}" {% if page == 'story' %}aria-current="page"{% endif %}>Story</a>
+      <a href="{{ url_for('portfolio') }}" {% if page == 'portfolio' %}aria-current="page"{% endif %}>Portfolio</a>
+    </nav>
+  </header>
+  <main>{% block content %}{% endblock %}</main>
+  <footer>
+    <p>Built with Flask and Tableau Public by {{ site.name }}.</p>
+  </footer>
+</body>
+</html>

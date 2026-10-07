@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="furrows" aria-hidden="true"></div>
+  <div class="hero-text">
+    <h1>What India grows, season by season</h1>
+    <p>An interactive look at India's agricultural crops: which crops lead, how seasons shape output, and where production is concentrated.</p>
+    <div class="actions">
+      <a class="btn primary" href="{{ url_for('dashboard') }}">Open the dashboard</a>
+      <a class="btn" href="{{ url_for('story') }}">Read the story</a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap split">
+  <article>
+    <h2>Dashboard</h2>
+    <p>Filter and compare crops in one view. Click any chart to cut the rest of the dashboard to match.</p>
+    <a href="{{ url_for('dashboard') }}">Go to the dashboard</a>
+  </article>
+  <article>
+    <h2>Story</h2>
+    <p>A guided walk through the seasonal analysis, one finding at a time.</p>
+    <a href="{{ url_for('story') }}">Go to the story</a>
+  </article>
+  <article>
+    <h2>Portfolio</h2>
+    <p>Who built this, the tools behind it, and how to get in touch.</p>
+    <a href="{{ url_for('portfolio') }}">Go to the portfolio</a>
+  </article>
+</section>
+{% endblock %}

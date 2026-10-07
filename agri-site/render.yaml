@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: india-agri-eportfolio
+    runtime: static
+    buildCommand: pip install -r requirements.txt && python build.py
+    staticPublishPath: dist
