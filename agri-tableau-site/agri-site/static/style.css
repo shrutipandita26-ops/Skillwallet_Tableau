@@ -1,0 +1,29 @@
+:root{--paddy:#1f4d3a;--leaf:#3f7d4e;--wheat:#e3b23c;--soil:#4a3a2a;--mist:#f2f5ee;--ink:#1b2a22;--line:#d5dccd}
+@media (prefers-color-scheme:dark){:root{--mist:#121a15;--ink:#e8efe6;--line:#2b3a31;--paddy:#8fc79d;--soil:#d9c7a8}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--mist);color:var(--ink);font:400 1.0625rem/1.6 "Work Sans",system-ui,sans-serif}
+h1,h2,h3,.brand{font-family:Bitter,Georgia,serif;line-height:1.15;color:var(--paddy)}
+a{color:var(--leaf)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--wheat);outline-offset:2px}
+.bar{display:flex;flex-wrap:wrap;gap:.5rem 2rem;align-items:center;justify-content:space-between;padding:1rem clamp(1rem,4vw,3rem);border-bottom:2px solid var(--line)}
+.brand{font-weight:800;font-size:1.3rem;text-decoration:none}
+nav{display:flex;gap:1.25rem;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;padding:.25rem 0;border-bottom:3px solid transparent}
+nav a:hover,nav a[aria-current]{border-color:var(--wheat)}
+.hero{position:relative;min-height:62vh;display:grid;align-items:end;overflow:hidden}
+.furrows{position:absolute;inset:0;background:repeating-linear-gradient(100deg,var(--paddy) 0 38px,var(--leaf) 38px 52px,var(--wheat) 52px 58px,var(--leaf) 58px 72px);opacity:.9}
+.hero-text{position:relative;max-width:40rem;margin:0 0 clamp(1.5rem,5vw,4rem) clamp(1rem,4vw,3rem);padding:2rem;background:var(--mist);border-left:8px solid var(--wheat)}
+.hero h1{font-size:clamp(2.2rem,6vw,4rem);margin:0 0 1rem;font-weight:800}
+.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border:2px solid var(--paddy);color:var(--paddy);text-decoration:none;font-weight:600;border-radius:4px}
+.btn.primary{background:var(--paddy);color:var(--mist)}
+.wrap{max-width:1440px;margin:0 auto;padding:2.5rem clamp(1rem,4vw,3rem)}
+.narrow{max-width:760px}
+.lede{max-width:65ch}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
+.split article{border-top:4px solid var(--leaf);padding-top:1rem}
+.chips{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.chips li{border:2px solid var(--line);padding:.25rem .8rem;border-radius:999px;font-weight:500}
+.viz{overflow-x:auto;border:2px solid var(--line);background:#fff;padding:.5rem;margin-top:1rem}
+footer{padding:2rem clamp(1rem,4vw,3rem);border-top:2px solid var(--line);color:var(--soil)}

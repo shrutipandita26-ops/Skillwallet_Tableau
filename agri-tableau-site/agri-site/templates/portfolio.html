@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Portfolio | {{ site.name }}{% endblock %}
+{% block content %}
+<section class="wrap narrow">
+  <h1>{{ site.name }}</h1>
+  <p class="lede">{{ site.tagline }} at {{ site.college }}.</p>
+
+  <h2>About this project</h2>
+  <p>This site presents an analysis of India's agricultural crops. I built a Tableau dashboard and a Tableau story, then embedded both in a Flask site deployed on Render.</p>
+
+  <h2>Tools</h2>
+  <ul class="chips">
+    <li>Tableau Public</li><li>Python</li><li>Flask</li><li>HTML and CSS</li><li>Git and GitHub</li><li>Render</li>
+  </ul>
+
+  <h2>Work</h2>
+  <div class="split">
+    <article><h3>Crop analysis dashboard</h3><p>One view to filter and compare crops.</p><a href="{{ url_for('dashboard') }}">View</a></article>
+    <article><h3>Seasonal analysis story</h3><p>A guided narrative of the main findings.</p><a href="{{ url_for('story') }}">View</a></article>
+  </div>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+  <a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a> and
+  <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></p>
+</section>
+{% endblock %}
