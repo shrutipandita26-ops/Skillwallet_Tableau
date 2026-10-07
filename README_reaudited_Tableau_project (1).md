@@ -336,24 +336,6 @@ A final demonstration should show:
 
 ---
 
-## Project Documentation
-
-The documentation should cover:
-
-- Problem statement
-- Dataset description
-- Data preparation
-- Tableau worksheets
-- KPI calculations
-- Dashboard design
-- Tableau Story
-- Key findings
-- Performance testing
-- Web integration
-- Final conclusion
-
-### Documentation Link
-
 **Documentation:** 
 
 ---
@@ -365,71 +347,6 @@ The documentation should cover:
 - **GitHub** – Source-code and project documentation hosting
 - **Web technologies** – For optional dashboard/story integration
 - **SkillWallet** – Capstone project submission and tracking
-
-> Add any additional tools actually used in the final project.
-
----
-
-## Project Structure
-
-A suggested repository structure is:
-
-```text
-India-Agricultural-Crop-Production-Analysis/
-│
-├── data/
-│   └── agricultural_crop_dataset.csv
-│
-├── tableau/
-│   └── agricultural_crop_production_analysis.twbx
-│
-├── documentation/
-│   └── project-documentation.md
-│
-├── screenshots/
-│   ├── dashboard.png
-│   ├── story.png
-│   └── visualizations/
-│
-└── README.md
-```
-
-> Adjust the structure to match the actual files in the GitHub repository. Do not list files that are not actually present.
-
----
-
-## Project Status
-
-### Completed
-
-- [x] Dataset collected
-- [x] Dataset connected to Tableau
-- [x] Data preparation
-- [x] Yield Trend worksheet
-- [x] Total Production KPI
-- [x] Average Yield KPI
-- [x] Number of Crops KPI
-- [x] Number of States KPI
-- [x] Production Trend
-- [x] Crop Production
-- [x] Cultivated Area by Crop
-- [x] State Production Map
-- [x] Season-wise Production
-- [x] Tableau Dashboard created
-- [x] Main dashboard KPI section started
-- [x] Finalize KPI card alignment and formatting
-- [x] Complete dashboard layout and visual polish
-- [x] Finalize Tableau Story
-- [x] Complete performance testing documentation
-- [x] Publish dashboard to Tableau Public
-- [x] Publish Story to Tableau Public
-- [x] Complete web integration
-- [x] Add GitHub repository link
-- [x] Add demo video link
-- [x] Complete project documentation
-- [x] Submit final project links on SkillWallet
-
----
 
 ## Conclusion
 
@@ -445,18 +362,17 @@ The results should be interpreted as patterns within the supplied dataset and no
 
 ## Author
 
-**Name:** __________________________
+**Name:** Shruti Pandita
 
-**Course / Program:** Data Analytics with Tableau
+**Course / Program:** Data Analytics with Tableau - India’s Agricultural Crop Production Analysis
 
-**Platform:** SkillWallet
+**Platform:** Tableau Public 
 
-**Project Title:** India's Agricultural Crop Production Analysis
-
-**GitHub:** 
+**Project Title:** India's Agricultural Crop Production Analysis 
 
 **Tableau Public:** 
-
-**LinkedIn / Portfolio:** 
+- Dashboard: https://public.tableau.com/views/Book1_Shruti_Agricultural_Dashboard/IndiaAgriculturalCropAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link
+- Story:
+-  
 
 **Demo:** 
