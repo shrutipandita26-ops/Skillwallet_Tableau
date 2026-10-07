@@ -417,20 +417,17 @@ India-Agricultural-Crop-Production-Analysis/
 - [x] Season-wise Production
 - [x] Tableau Dashboard created
 - [x] Main dashboard KPI section started
-
-### Remaining / Finalization
-
-- [ ] Finalize KPI card alignment and formatting
-- [ ] Complete dashboard layout and visual polish
-- [ ] Finalize Tableau Story
-- [ ] Complete performance testing documentation
-- [ ] Publish dashboard to Tableau Public
-- [ ] Publish Story to Tableau Public
-- [ ] Complete web integration
-- [ ] Add GitHub repository link
-- [ ] Add demo video link
-- [ ] Complete project documentation
-- [ ] Submit final project links on SkillWallet
+- [x] Finalize KPI card alignment and formatting
+- [x] Complete dashboard layout and visual polish
+- [x] Finalize Tableau Story
+- [x] Complete performance testing documentation
+- [x] Publish dashboard to Tableau Public
+- [x] Publish Story to Tableau Public
+- [x] Complete web integration
+- [x] Add GitHub repository link
+- [x] Add demo video link
+- [x] Complete project documentation
+- [x] Submit final project links on SkillWallet
 
 ---
 
